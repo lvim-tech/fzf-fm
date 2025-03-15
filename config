@@ -1,0 +1,62 @@
+# Working directory
+LVIM_FM_WORKING_DIR="$HOME/lvim-fm"
+
+# Icons
+ICON_FOLDER=""
+ICON_EXPLORER="󰙅"
+ICON_SEARCH_DIRECTORIES_AND_FILES="󱋣"
+ICON_SEARCH_DIRECTORIES="󰉋"
+ICON_SEARCH_FILES="󰈔"
+ICON_SEARCH_IN_FILES="󰈙"
+ICON_POINTER=""
+ICON_MARKER=""
+ICON_MENU="󰍜"
+ICON_SEPARATOR=""
+ICON_PROMPT=""
+
+# Commands
+EXPLORER="eza --group --colour=always --icons=always --group-directories-first --classify --level --oneline --no-quotes"
+SEARCH_DIRECTORIES_AND_FILES_WITH_HIDDEN="fd -H --color always"
+SEARCH_DIRECTORIES_AND_FILES_WITHOUT_HIDDEN="fd --color always"
+SEARCH_DIRECTORIES_WITH_HIDDEN="fd -H --color always --type d"
+SEARCH_DIRECTORIES_WITHOUT_HIDDEN="fd --color always --type d"
+SEARCH_FILES_WITH_HIDDEN="fd -H --color always --type f"
+SEARCH_FILES_WITHOUT_HIDDEN="fd --color always --type f"
+SEARCH_IN_FILES_WITH_HIDDEN="rg --no-heading -H --smart-case --line-number --column --hidden --follow --color=always"
+SEARCH_IN_FILES_WITHOUT_HIDDEN="rg --no-heading -H --smart-case --line-number --column --follow --color=always"
+
+# Colors
+COLORS="fg:#448589,bg:#141819,hl:#C94233,fg+:#448589,bg+:#181d1f,hl+:#C94233,pointer:#C94233,info:#E58C26,gutter:#141819,spinner:#E58C26,header:#C94233,prompt:#7F9858,marker:#C94233"
+
+# Keys
+KEY_QUIT="ctrl-q"
+KEY_CLEAR_QUERY="esc"
+KEY_PREVIEW_DOWN="ctrl-d"
+KEY_PREVIEW_UP="ctrl-u"
+KEY_PREVIEW_HALF_PAGE_DOWN="ctrl-f"
+KEY_PREVIEW_HALF_PAGE_UP="ctrl-b"
+KEY_TOGGLE_PREVIEW="alt-p"
+KEY_SAVE_CURRENT_PATH="alt-,"
+KEY_DELETE_CURRENT_PATH="alt-."
+KEY_MENU="alt-m"
+KEY_EXPLORER="alt-e"
+KEY_LONG_PATH="alt-l"
+KEY_SEARCH_DIRECTORIES_AND_FILES="alt-a"
+KEY_SEARCH_DIRECTORIES="alt-d"
+KEY_SEARCH_FILES="alt-f"
+KEY_SEARCH_IN_FILES="alt-w"
+KEY_TOGGLE_HIDDEN_FILES="alt-h"
+KEY_TOGGLE_HELP="alt-;"
+KEY_OPEN_TERMINAL="alt-t"
+KEY_COPY="alt-y"
+KEY_CUT="alt-o"
+KEY_DELETE="alt-r"
+KEY_PASTE="alt-p"
+KEY_EXECUTE="!"
+KEY_APPLY="alt-i"
+KEY_OPEN="alt-o"
+
+# Terminal
+TERM_DEFAULT="xterm"
+REVERSE="--reverse"
+
